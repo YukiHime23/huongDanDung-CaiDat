@@ -5,7 +5,8 @@ Kiem tra lich su thay doi cua repository
  - $ git log
 Kiem tra lich su thay doi cua repository voi 2 commit gan nhat
  - $ git log -2
-Kiem tra lich su thay doi cua repository voi 2 commit gan nhat, bao gom ca thay doi
+Kien tra lich su rut gon
+ - $ git log --oneline
 
 Liet ke cac remote url hien tai
  - $ git remote -v
@@ -68,8 +69,11 @@ push vs nhanh
 
 Thay doi origin url
  - $ git remote set-url origin <https://github.com/repo.git>
+ 
 Lay lay code da commit truoc day
 - $ git reset --hard <ma commit ssh vd:0ad5a7a6>
+
+- S git stash
 
 Merge commit tu branch khac
  - $ git checkout master
