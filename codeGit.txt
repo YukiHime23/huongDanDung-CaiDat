@@ -66,6 +66,10 @@ Xoa nhanh
  - $ git branch -d tennhanh
 push vs nhanh
  - $ git push origin <nhanh>
+ 
+checkout branch mới trên remote
+ - git fetch // update thông tin mới nhất trên remote
+ - git switch <branch cần checkout>
 
 Thay doi origin url
  - $ git remote set-url origin <https://github.com/repo.git>
