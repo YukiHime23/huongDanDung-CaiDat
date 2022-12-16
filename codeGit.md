@@ -1,27 +1,27 @@
 ﻿Kiem tra phien ban
- - $ git --version
+ - `git --version`
 
 Kiem tra lich su thay doi cua repository
- - $ git log
+ - `git log`
 Kiem tra lich su thay doi cua repository voi 2 commit gan nhat
- - $ git log -2
+ - `git log -2`
 Kien tra lich su rut gon
- - $ git log --oneline
+ - `git log --oneline`
 
 Liet ke cac remote url hien tai
- - $ git remote -v
+ - `git remote -v`
 
 Tao 1 repository moi
- - $ git init
+ - `git init`
 
 De clone 1 repository co san tren may cuc bo:
- - $ git clone /duong-dan-den/repository/
+ - `git clone /duong-dan-den/repository/` \
 Neu repository o may chu khac:
- - git clone tênusername@diachimaychu:/duong-dan-den/repository
+ - `git clone tênusername@diachimaychu:/duong-dan-den/repository`
 
 Thiet lap config, username va email
- - $ git config --global user.name "<Tên nguoi dung>"
- - $ git config --global user.email "<Ðia chi mail>"
+ - `git config --global user.name "<Tên nguoi dung>"`
+ - `git config --global user.email "<Ðia chi mail>"`
 tao mau cho phan xuat ra cua git
  - $ git config --global color.ui auto
 thiet lap bi danh (aliases) gian luoc "checkout" thanh "co"
