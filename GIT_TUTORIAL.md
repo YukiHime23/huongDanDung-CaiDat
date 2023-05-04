@@ -1,5 +1,4 @@
-﻿Kiem tra phien ban
- - `git --version`
+﻿- Kiem tra phien ban \ `git --version`
 
 Kiem tra lich su thay doi cua repository
  - `git log`
@@ -15,15 +14,19 @@ Tao 1 repository moi
  - `git init`
 
 De clone 1 repository co san tren may cuc bo:
- - `git clone /duong-dan-den/repository/` \
+ - `git clone /duong-dan-den/repository/`
+
 Neu repository o may chu khac:
  - `git clone tênusername@diachimaychu:/duong-dan-den/repository`
 
 Thiet lap config, username va email
  - `git config --global user.name "<Tên nguoi dung>"`
+
  - `git config --global user.email "<Ðia chi mail>"`
+
 tao mau cho phan xuat ra cua git
- - $ git config --global color.ui auto
+ - `git config --global color.ui auto`
+
 thiet lap bi danh (aliases) gian luoc "checkout" thanh "co"
  - $ git config --global alias.co checkout
 Liet ke nhung config dang su dung
